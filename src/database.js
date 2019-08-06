@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.set('useFindAndModify', false);
-mongoose.connect("mongodb+srv://miciudap:9Sqd5hk0FLiPdsUy@cluster0-2mciz.mongodb.net/api?retryWrites=true", {
+mongoose.connect("mongodb+srv://jcalizhoyos:1069495296caliz@cluster0-ul61k.mongodb.net/projectDB?retryWrites=true&w=majority", {
   useCreateIndex: true,
   useNewUrlParser: true
 })

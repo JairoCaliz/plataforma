@@ -42,7 +42,7 @@ const storage = multer.diskStorage({
       console.log(file);
       cb(null, uuid() + path.extname(file.originalname));
   }
-}) 
+})
 app.use(multer({storage}).single('image'));
 
 // app.use(formidable.parse({ keppExtensions: true }));
@@ -59,9 +59,8 @@ app.use((req, res, next) => {
 // routes
 app.use(require('./routes'));
 app.use(require('./routes/users'));
-app.use(require('./routes/eventos'));
-app.use(require('./routes/atracciones'));
-app.use(require('./routes/talentos'));
+app.use(require('./routes/recursos'));
+
 
 // static files
 app.use(express.static(path.join(__dirname, 'public')));
