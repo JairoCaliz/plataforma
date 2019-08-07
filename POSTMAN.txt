@@ -1,0 +1,24 @@
+RUTAS
+
+1)Metodo: Get
+Ruta: /recursos 
+Url: /recursos
+
+2)Metodo: Post
+Ruta: /recursos/new-recurso
+Url: /recursos/new-recurso
+
+
+3)Metodo: Get
+Ruta: /recursos/edit/:id
+Url:/recursos/edit/
+   
+
+4)Metodo: Get
+Ruta: /recuros/delete/:id
+Url: /recuros/delete/
+
+
+5)Metodo: Put
+Ruta: /recursos/edit-recurso/:id
+Url: /recursos/edit-recurso/
